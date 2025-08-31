@@ -24,5 +24,6 @@ public class checkingnumbers {
         if(numbers[0] == numbers[4]) {
             System.out.println("First and Last numbers are equal");
         } 
+        scanner.close();
 }}
 

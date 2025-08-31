@@ -10,5 +10,6 @@ public class mean_height {
         }
         double mean = sum / 10.0;
         System.out.println("Mean height is: " + mean);
+        scanner.close();
     }
 }

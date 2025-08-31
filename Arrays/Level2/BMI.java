@@ -1,4 +1,4 @@
-
+import java.util.*; 
 public class BMI {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -29,6 +29,7 @@ public class BMI {
         for(int i=0;i<n;i++) {
             System.out.println(height[i]+"\t"+weight[i]+"\t"+bmi[i]+"\t"+status[i]);
         }
+        sc.close();
     }
 }
 

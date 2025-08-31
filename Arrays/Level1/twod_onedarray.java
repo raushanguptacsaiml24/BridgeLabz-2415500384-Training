@@ -16,5 +16,6 @@ public class twod_onedarray {
         for (int i = 0; i < 9; i++) {
             System.out.print(array1D[i] + " ");
         }
+        scanner.close();
     }
 }
